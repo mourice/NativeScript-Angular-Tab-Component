@@ -1,0 +1,16 @@
+<ActionBar title="Tab Demo" icon="" class="action-bar">
+</ActionBar>
+<TabView #tabview [selectedIndex]="tabindex" sdkExampleTitle sdkToggleNavButton>
+    <StackLayout *tabItem="{title: 'Tab One'}">
+        <tabOne> </tabOne>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Tab Two'}">
+        <tabTwo> </tabTwo>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Tab Three'}">
+        <tabThree> </tabThree>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Tab Four'}">
+        <tabFour> </tabFour>
+    </StackLayout>
+</TabView>
